@@ -1,75 +1,60 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Fast Robo</title>
+    <title>Fast Robo | Apps</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400,300' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" media="all" href="assets/normalize.css">
-    <link rel="stylesheet" media="all" href="assets/main.css">
+    <link rel="stylesheet" media="all" href="assets/site.css">
   </head>
   <body>
     <header>
       <h1>Fast Robo</h1>
-      <span class='tagline'>We build useful things.</span>
+      <div>We build useful apps.</div>
     </header>
 
-    <div class='section'>
-      <h2>Apps</h2>
-      <ul>
-        <li>
-          <div><a href="https://itunes.apple.com/us/app/learn-korean-hangul-alphabet/id1344713126">Learn Korean Hangul Alphabet</a></div>
-          <span class='tagline'>Learn to read Korean</span>
-        </li>
-        <li>
-          <div><a href="https://itunes.apple.com/us/app/hoop-stars/id1282112219">AR Hoop Stars</a></div>
-          <span class='tagline'>AR Basketball</span>
-        </li>
-        <li>
-          <div><a href="https://itunes.apple.com/us/app/fun-faces-silly-flinger/id1237058922?mt=8">Fun Faces</a></div>
-          <span class='tagline'>Give your phone a fun face!</span>
-        </li>
-        <li>
-          <div><a href="https://itunes.apple.com/us/app/tip-solver-premier-gratuity/id1130814051?mt=8">Tip Solver</a></div>
-          <span class='tagline'>How much are you really tipping?</span>
-        </li>
-        <li>
-          <div><a href="https://itunes.apple.com/us/app/pomodoro-pro/id966415847?ls=1&mt=8">Power Focus</a></div>
-          <span class='tagline'>Beat procrastination with this handy timer.</span>
-        </li>
-        <li>
-          <div><a href="https://itunes.apple.com/us/app/colordive-tap-on-time-rhythm/id992055366?ls=1&mt=8">ColorDive</a></div>
-          <span class='tagline'>Apple Watch exclusive Rhythm Action Game.</span>
-        </li>
-      </ul>
-    </div>
-
-    <div class='section'>
-      <h2>Sites</h2>
-      <ul>
-        <li>
-          <div><a href="https://geographapp.com/">GeoGraph</a></div>
-          <span class='tagline'>Bookmark your current location with one click.</span>
-        </li>
-      </ul>
-    </div>
-
-    <div class='section'>
-      <h2>Contact</h2>
-      <ul>
-        <li>
-          <div><a href="mailto:support@fastrobo.co">support@fastrobo.co</a></div>
-          <span class='tagline'>email</span>
-        </li>
-        <li>
-          <div><a href="https://twitter.com/fastrobo">@fastrobo</a></div>
-          <span class='tagline'>twitter</span>
-        </li>
-      </ul>
-    </div>
+    <main>
+      <div class="item">
+        <a href="https://itunes.apple.com/us/app/pomodoro-pro/id966415847" class="icon-link"><img src="./assets/power_focus.png" alt="power focus icon - pomodoro timer" class="icon"></a>
+        <div class="title"><a href="https://itunes.apple.com/us/app/pomodoro-pro/id966415847">Power Focus</a></div>
+        <div class="platform">iPhone, Watch</div>
+      </div>
+      <div class="item">
+        <a href="https://itunes.apple.com/us/app/learn-korean-hangul-alphabet/id1344713126" class="icon-link"><img src="./assets/learn_korean.png" alt="learn korean icon - learn to read" class="icon"></a>
+        <div class="title"><a href="https://itunes.apple.com/us/app/learn-korean-hangul-alphabet/id1344713126">Learn Korean</a></div>
+        <div class="platform">iPhone</div>
+      </div>
+      <div class="item">
+        <a href="https://itunes.apple.com/us/app/tip-solver-premier-gratuity/id1130814051" class="icon-link"><img src="./assets/tip_solver.png" alt="tip solver icon - bill calculator" class="icon"></a>
+        <div class="title"><a href="https://itunes.apple.com/us/app/tip-solver-premier-gratuity/id1130814051">Tip Solver</a></div>
+        <div class="platform">iPhone, iPad</div>
+      </div>
+      <div class="item">
+        <a href="https://itunes.apple.com/us/app/hoop-stars/id1282112219" class="icon-link"><img src="./assets/ar_hoops.png" alt="ar hoops icon - AR basketball" class="icon"></a>
+        <div class="title"><a href="https://itunes.apple.com/us/app/hoop-stars/id1282112219">AR Hoop Stars</a></div>
+        <div class="platform">iPhone, iPad</div>
+      </div>
+      <div class="item">
+        <a href="https://itunes.apple.com/us/app/fun-faces-silly-flinger/id1237058922" class="icon-link"><img src="./assets/fun_faces.png" alt="fun faces icon - silly face flinger to give your phone a face" class="icon"></a>
+        <div class="title"><a href="https://itunes.apple.com/us/app/fun-faces-silly-flinger/id1237058922">Fun Faces</a></div>
+        <div class="platform">iPhone</div>
+      </div>
+      <div class="item">
+        <a href="https://geographapp.com/" class="icon-link"><img src="./assets/geo.png" alt="geograph app icon - bookmark your gps location" class="icon"></a>
+        <div class="title"><a href="https://geographapp.com/">GeoGraph</a></div>
+        <div class="platform">Web</div>
+      </div>
+    </main>
 
     <footer>
-      <div>&copy; 2012 &mdash; 2018 Fast Robo, LLC</div>
-      <div>built in california</div>
+      <div class="contact">
+        <div class="subheader">Contact</div>
+        <div class="contact-info">email: <a href="mailto:support@fastrobo.co">support@fastrobo.co</a></div>
+        <div class="contact-info">twitter: <a href="https://twitter.com/fastrobo">@fastrobo</a></div>
+      </div>
+
+      <span>&copy; 2012 &mdash; 2018 Fast Robo, LLC</span>
+      <div>Made in California</div>
     </footer>
 
     <script>
