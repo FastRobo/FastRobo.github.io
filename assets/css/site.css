@@ -1,0 +1,146 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  padding-top: 100px;
+  padding-bottom: 60px;
+}
+
+header h1 {
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 32px;
+}
+
+.container {
+  padding-left: 80px;
+  padding-right: 80px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+div.section {
+  padding-bottom: 60px;
+}
+
+div.section small {
+  font-size: 14px;
+}
+
+.list {
+  margin-top: 10px;
+  display: grid;
+  gap: 30px;
+}
+
+/* 960+ px */
+@media (min-width: 60.0rem) {
+  .list {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+/* Up to 960 px */
+@media (max-width: 60.0rem) {
+  .list {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* Up to 40 em (640 px) */
+@media (max-width: 40.0rem) {
+  .list {
+    grid-template-columns: 1fr;
+  }
+}
+
+.item {
+  display: flex;
+  align-items: stretch;
+  text-align: center;
+  flex-direction: column;
+  padding: 40px 20px;
+  border-radius: 20px;
+  background-color: #F7FAFC;
+  box-shadow: inset 0 0 0 1px rgba(50, 50, 50, .08);
+}
+
+.item:hover {
+  background-color: #EBF8FF;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.mac-app:hover {
+  transform: rotate(9deg);
+}
+
+.item .title {
+  font-weight: bold;
+}
+
+.item img {
+  width: 120px;
+  height: 120px;
+  border-radius: 22.5%;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.item img.no-border {
+  border-radius: 0px;
+  border: 0px;
+}
+
+.item span {
+  color: #718096;
+}
+
+.item span .tag {
+  display: inline-block;
+  color: #000;
+  font-weight: bold;
+  font-weight: 500;
+  line-height: 13px;
+  font-size: 12px;
+
+  position: relative;
+  top: -1px;
+  padding: 2px 4px;
+  margin-left: 2px;
+
+  border-radius: 4px;
+  box-shadow: inset 0 0 0 1px hsla(0, 0%, 0%, .8);
+}
+
+footer {
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+footer ul, footer ul li {
+  display: flex;
+  align-items: center;
+}
+
+footer ul {
+  list-style: none;
+  flex-wrap: wrap;
+}
+
+footer ul li {
+  padding-left: 0px;
+  padding-right: 50px;
+}
+
+a:link,a:active,a:visited {
+    text-decoration: none;
+    color: #4299E1;
+}
